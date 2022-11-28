@@ -1,0 +1,353 @@
+[
+    {
+        "name": "Balboa Fun Zone",
+        "city": "Newport Beach",
+        "state": "California",
+        "id": 1001,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -117.899932,
+            "latitude": 33.602900
+        },
+        "description": "The Balboa Fun Zone is a family destination located on the Balboa Peninsula in the city of Newport Beach, in Orange County. The Balboa Fun Zone offers both an ocean and harbor experience for an estimated seven million annual visitors to Newport Beach.",
+        "imageName": "Balboa Fun Zone"
+    },
+    {
+        "name": "Belmont Park",
+        "category": "Mountains",
+        "city": "San Diego",
+        "state": "California",
+        "id": 1002,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -117.252190,
+            "latitude": 32.770921
+        },
+        "description": "Belmont Park is a historic amusement park located on Ocean Front at Surfrider Square in the Mission Bay area of San Diego. The park was developed by sugar magnate John D. Spreckels and opened on July 4, 1925 as the Mission Beach Amusement Center. Located on the beach, it attracts millions of people each year. The park's most iconic attraction is the historic Giant Dipper roller coaster, which is considered a local landmark.",
+        "imageName": "Belmont Park (San Diego)"
+    },
+    {
+        "name": "Boomers Santa Maria",
+        "city": "Santa Maria",
+        "state": "California",
+        "id": 1003,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -120.424576,
+            "latitude": 34.963623
+        },
+        "description": "Boomers! Parks is a chain of family entertainment centers which feature indoor activities such as carousels, kiddie swings, restaurants, musical shows, and video game arcades, and outdoor activities such as miniature golf, kiddie rides, bumper boats, batting cages, go-karts, kiddie roller coasters, and laser tag.",
+        "imageName": "Boomers Santa Maria"
+    },
+    {
+        "name": "California's Great America",
+        "city": "Santa Clara",
+        "state": "California",
+        "id": 1004,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -121.974294,
+            "latitude": 37.397946
+        },
+        "description": "California's Great America is a 112-acre amusement park located in Santa Clara, California. California's Great America features over 40 rides and attractions, and one of its most notable is Gold Striker, which has been featured as a top-ranked wooden roller coaster in Amusement Today's annual Golden Ticket Awards publication. Other notable rides include RailBlazer, a single-rail coaster from Rocky Mountain Construction, and Flight Deck, an inverted coaster from Bolliger & Mabillard.",
+        "imageName": "California's Great America"
+    },
+    {
+        "name": "Castle Park",
+        "city": "Riverside",
+        "state": "California",
+        "id": 1005,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -117.467100,
+            "latitude": 33.902844
+        },
+        "description": "Castle Park is a 25-acre amusement park and family amusement center located in Riverside. The park utilizes a medieval castle theme and includes attractions such as a miniature golf course, arcade, and 22 amusement rides including two roller coasters such as Merlin's Revenge, a junior rollercoaster, and Screamin' Demon, a spinning Wild Mouse rollercoaster. The main castle themed building, houses the arcade as well as its only dark ride, Ghost Blasters, an interactive attraction, designed by Sally Corporation, which can also be found at other amusement parks throughout North America.",
+        "imageName": "Castle Park"
+    },
+    {
+        "name": "Children's Fairyland",
+        "city": "Oakland",
+        "state": "California",
+        "id": 1006,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -122.260369,
+            "latitude": 37.808706
+        },
+        "description": "Children's Fairyland is an amusement park, located in Oakland, on the shores of Lake Merritt. It was one of the earliest themed amusement parks in the United States. Fairyland includes 10 acres of play sets, small rides, and animals. The park is also home to the Open Storybook Puppet Theater, the oldest continuously operating puppet theater in the United States.",
+        "imageName": "Children's Fairyland"
+    },
+    {
+        "name": "Disney California Adventure Park",
+        "city": "Anaheim",
+        "state": "California",
+        "id": 1007,
+        "isFavorite": true,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -117.918976,
+            "latitude": 33.812511
+        },
+        "description": "Disney California Adventure Park, commonly referred to as California Adventure or by its acronym DCA, is a theme park located at the Disneyland Resort in Anaheim, California. The 72-acre park is themed after the history and culture of California, which celebrates the adventure of the state through the use of various Disney, Pixar and Marvel Studios properties.",
+        "imageName": "Disney California Adventure Park"
+    },
+    {
+        "name": "Disneyland Park",
+        "city": "Anaheim",
+        "state": "California",
+        "id": 1008,
+        "isFavorite": true,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -117.918974,
+            "latitude": 33.812092
+        },
+        "description": "Disneyland Park is a collection of adventures, rides, and shows symbolized by the Disney characters and Sleeping Beauty Castle. It's divided into nine subareas, or lands, arranged around a central hub. First encountered is Main Street, U.S.A., which connects the Disneyland entrance with the central hub. The other lands are Adventureland, New Orleans Square, Frontierland, Fantasyland, Tomorrowland, Critter Country, Star Wars: Galaxy's Edge, and Mickey's Toontown.",
+        "imageName": "Disneyland Park"
+    },
+    {
+        "name": "Funderland Amusement Park",
+        "city": "Sacramento",
+        "state": "California",
+        "id": 1009,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -121.501734,
+            "latitude": 38.537367
+        },
+        "description": "Funderland Amusement Park is a theme park located in Sacramento. Opened in 1946, this amusement park geared to young kids features 9 rides, including a carousel.",
+        "imageName": "Funderland Amusement Park"
+    },
+    {
+        "name": "Gilroy Gardens",
+        "city": "Gilroy",
+        "state": "California",
+        "id": 1010,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -121.6290606,
+            "latitude": 37.0049962
+        },
+        "description": "Gilroy Gardens Family Theme Park, often shortened to Gilroy Gardens, is a horticulture-themed amusement park located in Gilroy. The 536-acre theme park is owned by the city of Gilroy and operated by Cedar Fair; it features over 40 rides and attractions and is known for its Circus Trees, created by Axel Erlandson.",
+        "imageName": "Gilroy Gardens"
+    },
+    {
+        "name": "Hurricane Harbor Los Angeles",
+        "city": "Valencia",
+        "state": "California",
+        "id": 1011,
+        "isFavorite": false,
+        "isWaterPark": true,
+        "coordinates": {
+            "longitude": -118.5944,
+            "latitude": 34.4252
+        },
+        "description": "At this 22-acre waterpark next door to Six Flags Magic Mountain, you'll splish-splash into a world of fun. Enjoy two of the tallest fully-enclosed speed slides in Southern California, a 1,300-foot river, a wave pool, an interactive lagoon and a kids' play area.",
+        "imageName": "Hurricane Harbor Los Angeles"
+    },
+    {
+        "name": "Knott's Berry Farm",
+        "city": "Buena Park",
+        "state": "California",
+        "id": 1012,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -118.000226,
+            "latitude": 33.844304
+        },
+        "description": "Knott's Berry Farm is a 57-acre theme park located in Buena Park, California, owned and operated by Cedar Fair. In 2015, it was the twelfth-most-visited theme park in North America and averages approximately 4 million visitors per year. ",
+        "imageName": "Knott's Berry Farm"
+    },
+    {
+        "name": "Knott's Soak City",
+        "city": "Buena Park",
+        "state": "California",
+        "id": 1013,
+        "isFavorite": false,
+        "isWaterPark": true,
+        "coordinates": {
+            "longitude": -117.994972,
+            "latitude": 33.841349
+        },
+        "description": "Knott's Soak City is a seasonal water park owned and operated by Cedar Fair located in Buena Park. The Knott's Soak City name was previously used for two other water parks in Southern California, since sold to SeaWorld Parks & Entertainment and CNL Lifestyle Properties.",
+        "imageName": "Knott's Soak City"
+    },
+    {
+        "name": "Marshal Scotty's Playland Park",
+        "city": "El Cajon",
+        "state": "California",
+        "id": 1014,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -116.8833586,
+            "latitude": 32.8419949
+        },
+        "description": "Marshal Scotty's Playland Park is an abandoned theme park in El Cajon, California. The park contained multiple attractions, such as a railroad, a 20 ft Ferris wheel, a water slide, a small roller coaster, and a tilt-a-whirl ride. Starting 2015, the park opens during a few October weekend evenings for Scare Trail, a type of pre-Halloween amusement.",
+        "imageName": "Marshal Scotty's Playland Park"
+    },
+    {
+        "name": "Playland",
+        "city": "Fresno",
+        "state": "California",
+        "id": 1015,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -119.8235,
+            "latitude": 36.7516
+        },
+        "description": "Playland is an amusement park in Roeding Park in Fresno. It was built in 1955, and it shares the space on the southwest corner of the park with Storyland, its sister park, and Fresno Chaffee Zoo.",
+        "imageName": "Playland (Fresno)"
+    },
+    {
+        "name": "Raging Waters Sacramento",
+        "city": "Sacramento",
+        "state": "California",
+        "id": 1016,
+        "isFavorite": false,
+        "isWaterPark": true,
+        "coordinates": {
+            "longitude": -121.40120401,
+            "latitude": 38.61887259
+        },
+        "description": "Raging Waters Sacramento is a water park located on the Cal Expo grounds in Sacramento. The park is owned and operated by Palace Entertainment. The park has been formerly known as WaterWorld USA and Six Flags Waterworld.",
+        "imageName": "Raging Waters Sacramento"
+    },
+    {
+        "name": "Santa Cruz Beach Boardwalk",
+        "city": "Santa Cruz",
+        "state": "California",
+        "id": 1017,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -122.017213,
+            "latitude": 36.964374
+        },
+        "description": "The Santa Cruz Beach Boardwalk is an oceanfront amusement park in Santa Cruz. Founded in 1907, it is California's oldest surviving amusement park and one of the few seaside parks on the West Coast of the United States. At the western edge of the park lies a large building originally known as The Plunge, now Neptune's Kingdom, a pirate-themed recreation center which contains a video arcade and an indoor miniature golf course. Next to this is the Casino Fun Center which includes a laser tag arena and next to that is the Cocoanut Grove banquet room and conference center.",
+        "imageName": "Santa Cruz Beach Boardwalk"
+    },
+    {
+        "name": "SeaWorld San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "id": 1018,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -117.226608,
+            "latitude": 32.76479
+        },
+        "description": "SeaWorld San Diego is an animal theme park, oceanarium, outside aquarium and marine mammal park, in San Diego, California, United States, inside Mission Bay Park. It is owned and operated by SeaWorld Parks & Entertainment.SeaWorld San Diego is a member of the Association of Zoos and Aquariums (AZA). Adjacent to the property is the Hubbs-SeaWorld Research Institute, which conducts research on marine biology and provides education and outreach on marine issues to the general public, including information in park exhibits.",
+        "imageName": "SeaWorld San Diego"
+    },
+    {
+        "name": "Sesame Place San Diego",
+        "city": "Chula Vista",
+        "state": "California",
+        "id": 1019,
+        "isFavorite": false,
+        "isWaterPark": true,
+        "coordinates": {
+            "longitude": -117.0124,
+            "latitude": 32.5874
+        },
+        "description": "Family-friendly, Sesame Street-themed amusement park with rides, waterslides, parades & shows. Sesame Place San Diego is the second theme park of its kind in the country and the first on the West Coast based on Sesame Street.",
+        "imageName": "Sesame Place San Diego"
+    },
+    {
+        "name": "Six Flags Discovery Kingdom",
+        "city": "Vallejo",
+        "state": "California",
+        "id": 1020,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -122.230557,
+            "latitude": 38.138008
+        },
+        "description": "Six Flags Discovery Kingdom is a 135-acre animal theme park located in Vallejo, off of Interstate 80 between San Francisco and Sacramento. The park includes a variety of roller coasters and other amusement rides. Six Flags Discovery Kingdom has been part of the Six Flags chain of amusement parks since 1999.",
+        "imageName": "Six Flags Discovery Kingdom"
+    },
+    {
+        "name": "Six Flags Magic Mountain",
+        "city": "Los Angeles",
+        "state": "California",
+        "id": 1021,
+        "isFavorite": true,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -118.597219,
+            "latitude": 34.425331
+        },
+        "description": "Six Flags Magic Mountain is a 262-acre theme park located in Valencia, California. With 19 roller coasters, Six Flags Magic Mountain holds the world record for most roller coasters in an amusement park. In 2017, the park had an estimated 3.3 million visitors, ranking it sixteenth in attendance in North America.",
+        "imageName": "Six Flags Magic Mountain"
+    },
+    {
+        "name": "SkyPark at Santa's Village",
+        "city": "Skyforest",
+        "state": "California",
+        "id": 1022,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -117.171466,
+            "latitude": 34.233126
+        },
+        "description": "SkyPark at Santa's Village is an Outdoor Adventure Park with year-round mountain biking, hiking, fly fishing and open air activities in the Skyforest section of Lake Arrowhead, California. The Park resides on 230-acre of natural forest with meadowlands, ponds and an apple orchard. At the core of SkyPark is The Village, which includes historic log cabin restaurants and shops, seasonal entertainment, and open-air activities.",
+        "imageName": "SkyPark at Santa's Village"
+    },
+    {
+        "name": "Sonoma TrainTown Railroad",
+        "city": "Sonoma",
+        "state": "California",
+        "id": 1023,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -122.459546,
+            "latitude": 38.277628
+        },
+        "description": "The Sonoma TrainTown Railroad (commonly called Sonoma Train Town) is a tourist railroad and 10 acre amusement park in Sonoma. Its logo is based on the logo for the New York Central Railroad. Its main feature is a 15 in gauge miniature railway, which closely corresponds to a 1:4 scale model of a 4 ft 8+1⁄2 in standard gauge railroad.",
+        "imageName": "Sonoma TrainTown Railroad"
+    },
+    {
+        "name": "Universal Studios Hollywood",
+        "city": "Universal City",
+        "state": "California",
+        "id": 1024,
+        "isFavorite": false,
+        "isWaterPark": false,
+        "coordinates": {
+            "longitude": -118.353378,
+            "latitude": 34.138117
+        },
+        "description": "Universal Studios Hollywood is a film studio and theme park in the San Fernando Valley area of Los Angeles County. It is one of the oldest and most famous Hollywood film studios still in use. Its official marketing headline is The Entertainment Capital of LA. It was initially created to offer tours of the real Universal Studios sets and is the first of many full-fledged Universal Studios Theme Parks located across the world.",
+        "imageName": "Universal Studios Hollywood"
+    },
+    {
+        "name": "WaterWorks Park",
+        "city": "Redding",
+        "state": "California",
+        "id": 1025,
+        "isFavorite": false,
+        "isWaterPark": true,
+        "coordinates": {
+            "longitude": -122.368929,
+            "latitude": 40.611956
+        },
+        "description": "WaterWorks Park is a waterpark amusement park in Redding. It opened in 1985. It includes several waterslides. Popular rides include the Bucking Bronco, the Whipper Snapper, and the Cork Screw flumes. A play area for children and the Raging River ride are also part of the park.",
+        "imageName": "WaterWorks Park"
+    }
+]

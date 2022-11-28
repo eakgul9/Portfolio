@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202AACA628237C5E00CFDB70 /* URLCache+imageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202AACA528237C5E00CFDB70 /* URLCache+imageCache.swift */; };
+		203339532823495F00888F99 /* NewMovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203339522823495F00888F99 /* NewMovieDetail.swift */; };
+		20333955282349A600888F99 /* GenreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20333954282349A600888F99 /* GenreButton.swift */; };
+		207ABC05282332320060EEFB /* SearchListModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207ABC04282332320060EEFB /* SearchListModelView.swift */; };
+		207ABC0828237B740060EEFB /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 207ABC0728237B740060EEFB /* CachedAsyncImage */; };
+		20AD6D55281A0C230042F335 /* MelpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AD6D54281A0C230042F335 /* MelpApp.swift */; };
+		20AD6D57281A0C230042F335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AD6D56281A0C230042F335 /* ContentView.swift */; };
+		20AD6D59281A0C280042F335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20AD6D58281A0C280042F335 /* Assets.xcassets */; };
+		20AD6D5C281A0C280042F335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20AD6D5B281A0C280042F335 /* Preview Assets.xcassets */; };
+		20AD6D66281A12390042F335 /* ImdbAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AD6D65281A12390042F335 /* ImdbAPI.swift */; };
+		20AD6D68281A13320042F335 /* Imdb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AD6D67281A13320042F335 /* Imdb.swift */; };
+		20AD6D6A281A13C40042F335 /* Browse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AD6D69281A13C40042F335 /* Browse.swift */; };
+		20AD6D6C281A14090042F335 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AD6D6B281A14090042F335 /* MovieDetail.swift */; };
+		915D8214281B0440003B10AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 915D8213281B0440003B10AA /* GoogleService-Info.plist */; };
+		915D8217281B05B7003B10AA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 915D8216281B05B7003B10AA /* FirebaseAuth */; };
+		915D8219281B05B7003B10AA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 915D8218281B05B7003B10AA /* FirebaseFirestore */; };
+		915D821C281B065A003B10AA /* FirebaseAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 915D821B281B065A003B10AA /* FirebaseAuthUI */; };
+		915D821E281B065A003B10AA /* FirebaseEmailAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 915D821D281B065A003B10AA /* FirebaseEmailAuthUI */; };
+		915D8221281B0756003B10AA /* MelpAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915D8220281B0756003B10AA /* MelpAuth.swift */; };
+		915D8223281B0898003B10AA /* MelpReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915D8222281B0897003B10AA /* MelpReview.swift */; };
+		915D8225281B0981003B10AA /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915D8224281B0981003B10AA /* Review.swift */; };
+		915D8227281B0998003B10AA /* MelpAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915D8226281B0998003B10AA /* MelpAppDelegate.swift */; };
+		915D822B281B0B7F003B10AA /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915D822A281B0B7E003B10AA /* AuthenticationViewController.swift */; };
+		915D822D281B0C73003B10AA /* ReviewMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915D822C281B0C72003B10AA /* ReviewMetadata.swift */; };
+		915D8232281B0CE4003B10AA /* ReviewEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915D822E281B0CE3003B10AA /* ReviewEntry.swift */; };
+		915D8233281B0CE4003B10AA /* ReviewUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915D822F281B0CE4003B10AA /* ReviewUpdate.swift */; };
+		915D8234281B0CE4003B10AA /* ReviewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915D8230281B0CE4003B10AA /* ReviewDetail.swift */; };
+		915D8235281B0CE4003B10AA /* ReviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915D8231281B0CE4003B10AA /* ReviewList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		202AACA528237C5E00CFDB70 /* URLCache+imageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLCache+imageCache.swift"; sourceTree = "<group>"; };
+		203339522823495F00888F99 /* NewMovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMovieDetail.swift; sourceTree = "<group>"; };
+		20333954282349A600888F99 /* GenreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButton.swift; sourceTree = "<group>"; };
+		207ABC04282332320060EEFB /* SearchListModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListModelView.swift; sourceTree = "<group>"; };
+		20AD6D51281A0C230042F335 /* Melp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Melp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AD6D54281A0C230042F335 /* MelpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelpApp.swift; sourceTree = "<group>"; };
+		20AD6D56281A0C230042F335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20AD6D58281A0C280042F335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20AD6D5B281A0C280042F335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20AD6D65281A12390042F335 /* ImdbAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImdbAPI.swift; sourceTree = "<group>"; };
+		20AD6D67281A13320042F335 /* Imdb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imdb.swift; sourceTree = "<group>"; };
+		20AD6D69281A13C40042F335 /* Browse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browse.swift; sourceTree = "<group>"; };
+		20AD6D6B281A14090042F335 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		915D8213281B0440003B10AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		915D8220281B0756003B10AA /* MelpAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MelpAuth.swift; sourceTree = "<group>"; };
+		915D8222281B0897003B10AA /* MelpReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MelpReview.swift; sourceTree = "<group>"; };
+		915D8224281B0981003B10AA /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		915D8226281B0998003B10AA /* MelpAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MelpAppDelegate.swift; sourceTree = "<group>"; };
+		915D822A281B0B7E003B10AA /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		915D822C281B0C72003B10AA /* ReviewMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewMetadata.swift; sourceTree = "<group>"; };
+		915D822E281B0CE3003B10AA /* ReviewEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewEntry.swift; sourceTree = "<group>"; };
+		915D822F281B0CE4003B10AA /* ReviewUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewUpdate.swift; sourceTree = "<group>"; };
+		915D8230281B0CE4003B10AA /* ReviewDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewDetail.swift; sourceTree = "<group>"; };
+		915D8231281B0CE4003B10AA /* ReviewList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20AD6D4E281A0C230042F335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915D821E281B065A003B10AA /* FirebaseEmailAuthUI in Frameworks */,
+				207ABC0828237B740060EEFB /* CachedAsyncImage in Frameworks */,
+				915D8217281B05B7003B10AA /* FirebaseAuth in Frameworks */,
+				915D821C281B065A003B10AA /* FirebaseAuthUI in Frameworks */,
+				915D8219281B05B7003B10AA /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207ABC03282331B70060EEFB /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				207ABC04282332320060EEFB /* SearchListModelView.swift */,
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
+		207ABC0928237B870060EEFB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				202AACA528237C5E00CFDB70 /* URLCache+imageCache.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		20AD6D48281A0C230042F335 = {
+			isa = PBXGroup;
+			children = (
+				915D8213281B0440003B10AA /* GoogleService-Info.plist */,
+				20AD6D53281A0C230042F335 /* Melp */,
+				20AD6D52281A0C230042F335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20AD6D52281A0C230042F335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20AD6D51281A0C230042F335 /* Melp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20AD6D53281A0C230042F335 /* Melp */ = {
+			isa = PBXGroup;
+			children = (
+				207ABC0928237B870060EEFB /* Extensions */,
+				20AD6D58281A0C280042F335 /* Assets.xcassets */,
+				915D821F281B0726003B10AA /* Service */,
+				20AD6D64281A12120042F335 /* API */,
+				20AD6D63281A120B0042F335 /* Model */,
+				207ABC03282331B70060EEFB /* Observable */,
+				20AD6D62281A12060042F335 /* View */,
+				915D822A281B0B7E003B10AA /* AuthenticationViewController.swift */,
+				20AD6D54281A0C230042F335 /* MelpApp.swift */,
+				915D8226281B0998003B10AA /* MelpAppDelegate.swift */,
+				20AD6D5A281A0C280042F335 /* Preview Content */,
+			);
+			path = Melp;
+			sourceTree = "<group>";
+		};
+		20AD6D5A281A0C280042F335 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20AD6D5B281A0C280042F335 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20AD6D62281A12060042F335 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20AD6D56281A0C230042F335 /* ContentView.swift */,
+				20AD6D69281A13C40042F335 /* Browse.swift */,
+				20AD6D6B281A14090042F335 /* MovieDetail.swift */,
+				915D822C281B0C72003B10AA /* ReviewMetadata.swift */,
+				915D8230281B0CE4003B10AA /* ReviewDetail.swift */,
+				915D822E281B0CE3003B10AA /* ReviewEntry.swift */,
+				915D8231281B0CE4003B10AA /* ReviewList.swift */,
+				915D822F281B0CE4003B10AA /* ReviewUpdate.swift */,
+				203339522823495F00888F99 /* NewMovieDetail.swift */,
+				20333954282349A600888F99 /* GenreButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20AD6D63281A120B0042F335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				915D8224281B0981003B10AA /* Review.swift */,
+				20AD6D67281A13320042F335 /* Imdb.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20AD6D64281A12120042F335 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				20AD6D65281A12390042F335 /* ImdbAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		915D821F281B0726003B10AA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				915D8220281B0756003B10AA /* MelpAuth.swift */,
+				915D8222281B0897003B10AA /* MelpReview.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20AD6D50281A0C230042F335 /* Melp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20AD6D5F281A0C280042F335 /* Build configuration list for PBXNativeTarget "Melp" */;
+			buildPhases = (
+				20AD6D4D281A0C230042F335 /* Sources */,
+				20AD6D4E281A0C230042F335 /* Frameworks */,
+				20AD6D4F281A0C230042F335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Melp;
+			packageProductDependencies = (
+				915D8216281B05B7003B10AA /* FirebaseAuth */,
+				915D8218281B05B7003B10AA /* FirebaseFirestore */,
+				915D821B281B065A003B10AA /* FirebaseAuthUI */,
+				915D821D281B065A003B10AA /* FirebaseEmailAuthUI */,
+				207ABC0728237B740060EEFB /* CachedAsyncImage */,
+			);
+			productName = Melp;
+			productReference = 20AD6D51281A0C230042F335 /* Melp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20AD6D49281A0C230042F335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					20AD6D50281A0C230042F335 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 20AD6D4C281A0C230042F335 /* Build configuration list for PBXProject "Melp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20AD6D48281A0C230042F335;
+			packageReferences = (
+				915D8215281B05B7003B10AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				915D821A281B0659003B10AA /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */,
+				207ABC0628237B730060EEFB /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
+			productRefGroup = 20AD6D52281A0C230042F335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20AD6D50281A0C230042F335 /* Melp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20AD6D4F281A0C230042F335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AD6D5C281A0C280042F335 /* Preview Assets.xcassets in Resources */,
+				20AD6D59281A0C280042F335 /* Assets.xcassets in Resources */,
+				915D8214281B0440003B10AA /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20AD6D4D281A0C230042F335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203339532823495F00888F99 /* NewMovieDetail.swift in Sources */,
+				20333955282349A600888F99 /* GenreButton.swift in Sources */,
+				915D8227281B0998003B10AA /* MelpAppDelegate.swift in Sources */,
+				915D822D281B0C73003B10AA /* ReviewMetadata.swift in Sources */,
+				20AD6D57281A0C230042F335 /* ContentView.swift in Sources */,
+				915D8234281B0CE4003B10AA /* ReviewDetail.swift in Sources */,
+				202AACA628237C5E00CFDB70 /* URLCache+imageCache.swift in Sources */,
+				20AD6D68281A13320042F335 /* Imdb.swift in Sources */,
+				915D8225281B0981003B10AA /* Review.swift in Sources */,
+				915D8233281B0CE4003B10AA /* ReviewUpdate.swift in Sources */,
+				20AD6D66281A12390042F335 /* ImdbAPI.swift in Sources */,
+				915D8221281B0756003B10AA /* MelpAuth.swift in Sources */,
+				915D822B281B0B7F003B10AA /* AuthenticationViewController.swift in Sources */,
+				20AD6D6C281A14090042F335 /* MovieDetail.swift in Sources */,
+				20AD6D6A281A13C40042F335 /* Browse.swift in Sources */,
+				915D8235281B0CE4003B10AA /* ReviewList.swift in Sources */,
+				915D8232281B0CE4003B10AA /* ReviewEntry.swift in Sources */,
+				915D8223281B0898003B10AA /* MelpReview.swift in Sources */,
+				207ABC05282332320060EEFB /* SearchListModelView.swift in Sources */,
+				20AD6D55281A0C230042F335 /* MelpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20AD6D5D281A0C280042F335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20AD6D5E281A0C280042F335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20AD6D60281A0C280042F335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Melp/Preview Content\"";
+				DEVELOPMENT_TEAM = T863KFDBS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arusha.Melp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20AD6D61281A0C280042F335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Melp/Preview Content\"";
+				DEVELOPMENT_TEAM = T863KFDBS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arusha.Melp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20AD6D4C281A0C230042F335 /* Build configuration list for PBXProject "Melp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AD6D5D281A0C280042F335 /* Debug */,
+				20AD6D5E281A0C280042F335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20AD6D5F281A0C280042F335 /* Build configuration list for PBXNativeTarget "Melp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AD6D60281A0C280042F335 /* Debug */,
+				20AD6D61281A0C280042F335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		207ABC0628237B730060EEFB /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		915D8215281B05B7003B10AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.10.0;
+			};
+		};
+		915D821A281B0659003B10AA /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/FirebaseUI-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		207ABC0728237B740060EEFB /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 207ABC0628237B730060EEFB /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+		915D8216281B05B7003B10AA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 915D8215281B05B7003B10AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		915D8218281B05B7003B10AA /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 915D8215281B05B7003B10AA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		915D821B281B065A003B10AA /* FirebaseAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 915D821A281B0659003B10AA /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseAuthUI;
+		};
+		915D821D281B065A003B10AA /* FirebaseEmailAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 915D821A281B0659003B10AA /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseEmailAuthUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 20AD6D49281A0C230042F335 /* Project object */;
+}
