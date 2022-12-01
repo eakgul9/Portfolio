@@ -4,4 +4,8 @@ All of these assignments were done individually, I was given the source file and
 
 1) A* Algorithm:
 
-2) 
+2) Edit Distance Algorithm:
+
+3) Huffman Trie Algorithm:
+
+4) Minimax Algorithm:
