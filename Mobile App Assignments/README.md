@@ -1,1 +1,9 @@
 Mobile App Development Assignments:
+
+Blog4Gamers App: Worked with a team of 2. Created an app where you can write blog posts about your favorite video games, characters, and much more! The app also allows you to delete, edit/update the articles and even add a url to your blog posts. The security policy only allows you to view the blog posts until you sign in. Once you do, you will have full access to all features of the app. Backed by Firebase. We worked on all aspects of this app together, instead of dividing up the work.
+
+Help Review App: Worked with a team of 4. Created an app where you can write reviews, search for movies, and share your ideas. We used the Imdb API to search for movies, and the Firebase database for our reviews including movie name and image. Once you are logged in, in the reviews tab, you can swipe any review in the list to the left to delete it. The reviews for specific movies appear below each movie in the movies tab when you click on a movie. There is also a search feature where you can search for any movie in the movies tab. I was responsible for setting up the Firebase database and the Reviews Tab. 
+
+Theme Parks App: Worked with a team of 2. Created an app to give the user a list of the best theme parks in California. It gives a little picture, where it is on the map, and a description of the theme park. It comes with a filter to show you the few water parks in the big list of theme parks. It also allows you to favorite/like any park. I implemented the functionality of the app, including the favoriting, wrote the JSON file, and created the views.
+
+iTunes Search App: Created an app that lets you search through the ITunes Library for your favorite songs, tv shows or movies. It also gives relevant information about each search result such as artist name or the album name if it's a song. I implemented the API into the app and worked on the design, including the tabs and the views.
