@@ -1,2 +1,2 @@
 # Coding Portfolio
-by Eylul Akgul
+by Eylül Akgül
